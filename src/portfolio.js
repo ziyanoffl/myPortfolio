@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ziyan Rilwan",
+  title: "Hi all, I'm Ziyan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Analytical and detail-oriented Data Analyst 📊 with 2+ years of turning messy data into beautiful insights ✨ Experienced in Tableau and Power BI dashboard development, data cleaning (yes, even the REALLY messy stuff 🧹), and KPI design to help businesses make data-driven decisions 🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "./Ziyan-Rilwan.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/ziyanoffl",
+  linkedin: "https://linkedin.com/in/mohammed-ziyan",
+  gmail: "ziyanrilwan@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DATA WIZARD 🧙‍♂️ WHO TRANSFORMS SPREADSHEETS INTO STORIES",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build interactive Tableau and Power BI dashboards that make stakeholders go 'Wow!' 📈"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Automate boring stuff with Python and PowerApps so I can focus on the fun problems 🤖"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Write SQL queries that are almost as complex as my coffee order ☕ (JOINs, CTEs, Window Functions, you name it!)"
+    ),
+    emoji(
+      "⚡ Turn messy Excel files into clean, actionable insights (yes, I've seen THAT spreadsheet 😅)"
     )
   ],
 
@@ -126,23 +129,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Manipal Academy of Higher Education - MAHE",
+      logo: require("./assets/images/manipal.png"),
+      subHeader: "Postgraduate Diploma in Data Science",
+      duration: "Mar 2025 – Present",
+      desc: "Modules: Advanced Machine Learning, NLP, Deep Learning, Data Science Projects.",
+      descBullets: []
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Solent University",
+      logo: require("./assets/images/solent_uni.png"),
+      subHeader: "BSc (Hons) Software Engineering",
+      duration: "2024",
+      desc: "Grade: First Class Honors. (Equivalent to 3.7 – 4.0 GPA)",
+      descBullets: [
+        "Modules: Machine Learning, Data Science, DevOps, Industrial Consulting Project, Dissertation Project."
+      ]
     }
   ]
 };
@@ -153,16 +155,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Business Intelligence (Tableau, Power BI)", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "SQL & Data Analysis",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Python & Statistics",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +176,38 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "IT Analyst Intern",
+      company: "Emerson",
+      companylogo: require("./assets/images/Emerson.png"),
+      date: "Jul 2025 – Present",
+      desc: "Built and maintained interactive Tableau and Power BI dashboards for operational KPIs.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Automated data ingestion and transformation pipelines using PowerApps, SharePoint, and Python scripts to reduce manual work by 30%.",
+        "Partnered with Data Engineers to design secure and scalable data sources and optimize SQL queries for performance.",
+        "Documented data flows and metrics definitions, ensuring consistent KPI tracking across departments."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Analyst",
+      company: "TecHome Technologies Pvt Ltd. (CONTEXT)",
+      companylogo: require("./assets/images/techome.png"),
+      date: "Sep 2023 – Mar 2025",
+      desc: "Designed and deployed BI dashboards in Power BI to track sales, marketing, and operational metrics.",
+      descBullets: [
+        "Developed and maintained complex SQL queries (joins, CTEs, window functions) for data validation and reporting.",
+        "Conducted data quality checks and reconciliation to ensure accuracy in executive dashboards.",
+        "Collaborated with leadership to define measurable business KPIs and automate recurring reporting workflows."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Web Developer Trainee",
+      company: "Csquare Technologies",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2023 – Jun 2023",
+      desc: "Contributed to the development of ERP system modules using PHP, MySQL, and jQuery to automate business operations.",
+      descBullets: [
+        "Assisted in optimizing backend queries and improving data performance for client-facing applications."
+      ]
     }
   ]
 };
@@ -212,34 +223,27 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME OF MY NOTABLE PROJECTS",
   projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+    // Template: Add your projects here
+    // {
+    //   image: require("./assets/images/projectLogo.webp"),
+    //   projectName: "Project Name",
+    //   projectDesc: "Description of your project",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://example.com/"
+    //     },
+    //     {
+    //       name: "GitHub",
+    //       url: "https://github.com/username/repo"
+    //     }
+    //   ]
+    // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set true to show this section when you add projects
 };
 
 // Achievement Section
@@ -251,56 +255,21 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+    // Template: Add your achievements here
+    // {
+    //   title: "Achievement Title",
+    //   subtitle: "Description of the achievement",
+    //   image: require("./assets/images/certLogo.webp"),
+    //   imageAlt: "Achievement Logo",
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://example.com/cert"
+    //     }
+    //   ]
+    // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set true to show this section when you add achievements
 };
 
 // Blogs Section
@@ -308,23 +277,17 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "I write about data analytics, technology, and my learning journey.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+    // Template: Add your blog posts here
+    // {
+    //   url: "https://yourblog.com/post",
+    //   title: "Blog Post Title",
+    //   description: "Brief description of the blog post"
+    // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set true to show this section when you add blogs
 };
 
 // Talks Sections
@@ -336,14 +299,15 @@ const talkSection = {
   ),
 
   talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+    // Template: Add your talks here
+    // {
+    //   title: "Talk Title",
+    //   subtitle: "Event Name",
+    //   slides_url: "https://slides.com/yourslides",
+    //   event_url: "https://event.com"
+    // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -354,9 +318,9 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    // "https://anchor.fm/yourpodcast/embed/episodes/..."
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,16 +335,16 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi? My Inbox is open for all. Let's turn data into decisions! 🚀",
+  number: "+971 50 648 0018",
+  email_address: "ziyanrilwan@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
