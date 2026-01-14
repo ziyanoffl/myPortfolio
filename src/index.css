@@ -25,6 +25,11 @@ body {
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewport="0 0 24 24" style="fill:black;font-size:24px;"><path d="M7 2l12 11.2-5.8.5 3.3 7.3-2.2.9-3.2-7.4-4.4 4z" style="fill:%236c63ff;stroke:white;stroke-width:1px;"/></svg>') 0 0, auto;
+}
+
+a, button, [role="button"] {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewport="0 0 24 24" style="fill:black;font-size:24px;"><path d="M7 2l12 11.2-5.8.5 3.3 7.3-2.2.9-3.2-7.4-4.4 4z" style="fill:%23ff4081;stroke:white;stroke-width:1px;"/></svg>') 0 0, pointer;
 }
 /* Media Query */
 @media (max-width: 1380px) {
