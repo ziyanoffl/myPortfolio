@@ -23,7 +23,7 @@ const socialMediaLinks = {
 
 // Animated counters under "What I Do" and in the hero dashboard
 const stats = [
-  {value: 2, suffix: "+", label: "Years in data"},
+  {value: 3, suffix: "+", label: "Years in data"},
   {value: 30, suffix: "%", label: "Manual work automated"},
   {value: 3, suffix: "", label: "Roles shipped"},
   {value: 1, suffix: "st", label: "Class Honours"}

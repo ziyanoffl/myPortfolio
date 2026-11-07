@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This site showcases my work as a Data 
 
 ## 👋 About Me
 
-I am an analytical and detail-oriented Data Analyst with 2+ years of professional experience turning messy data into beautiful insights. I specialize in building interactive dashboards, automating data pipelines, and helping businesses make data-driven decisions.
+I am an analytical and detail-oriented Data Analyst with 3+ years of professional experience turning messy data into beautiful insights. I specialize in building interactive dashboards, automating data pipelines, and helping businesses make data-driven decisions.
 
 ## 🛠 Tech Stack
 
