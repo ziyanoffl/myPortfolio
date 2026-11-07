@@ -85,7 +85,7 @@ const educationInfo = {
       schoolName: "Manipal Academy of Higher Education (MAHE)",
       logo: require("./assets/images/manipal.png"),
       subHeader: "Postgraduate Diploma in Data Science",
-      duration: "Mar 2025 – Present",
+      duration: "Mar 2025 – Jan 2026",
       desc: "Modules: Advanced Machine Learning, NLP, Deep Learning, Data Science Projects."
     },
     {
